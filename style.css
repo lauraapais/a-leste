@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+html{
+    display: flex;
+    justify-content: center;
+}
+@font-face {
+    font-family: 'Shrimp';
+    font-style: normal;
+    font-weight: 400;
+    src: url(SHRIMP.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'SegoeUIVF';
+    font-style: normal;
+    font-weight: 400;
+    src: url(SegoeUIVF.woff2) format('woff2');
+}
+
+body{
+    font-family: 'SegoeUIVF';
+    background-color: #E8DFDA;
+    color: #D15C33;
+    margin-top: 3vw;
+    width:90vw;
+}
+
+h1, h2, h3, .menu{
+    font-family: 'Shrimp';
+    text-transform: uppercase;
+}
+
+header h3 {
+    line-height: 1em;
+}
+
+h3{
+    font-size:5vw;
+}
+
+.menu{
+    text-decoration: none;
+    color: #D15C33;
+    font-size: 2vw;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+main{
+    position: relative;
+    height:calc(100vh - 8vw) ;
+}
+
+.bolos_chamine{
+    text-transform: uppercase;
+    font-size:2.5vw;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    transform: translate(0, -50%);
+}
+
+.bolos_chamine span {
+    display: block;
+    line-height: 2.5rem;
+}
+
