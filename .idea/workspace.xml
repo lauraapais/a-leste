@@ -13,8 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -35,6 +36,15 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\paisl\Desktop\design\A Leste\Website\a-leste\loja\en" />
+      <recent name="C:\Users\paisl\Desktop\design\A Leste\Website\a-leste\loja" />
+      <recent name="C:\Users\paisl\Desktop\design\A Leste\Website\a-leste\en" />
+      <recent name="C:\Users\paisl\Desktop\design\A Leste\Website\a-leste\ementa\en" />
+      <recent name="C:\Users\paisl\Desktop\design\A Leste\Website\a-leste\ementa" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,6 +55,31 @@
       <updated>1662051250018</updated>
       <workItem from="1662051251418" duration="4550000" />
       <workItem from="1662059434002" duration="657000" />
+      <workItem from="1662220089049" duration="266000" />
+      <workItem from="1662223313888" duration="664000" />
+      <workItem from="1662312238082" duration="5529000" />
+      <workItem from="1662324377645" duration="48000" />
+      <workItem from="1662368690778" duration="3599000" />
+      <workItem from="1662571051452" duration="7584000" />
+      <workItem from="1662647829841" duration="597000" />
+      <workItem from="1662654647912" duration="5917000" />
+      <workItem from="1662738352287" duration="7816000" />
+      <workItem from="1662758258326" duration="1950000" />
+      <workItem from="1662800566224" duration="3254000" />
+      <workItem from="1662804560663" duration="634000" />
+      <workItem from="1662826569804" duration="186000" />
+      <workItem from="1662891651973" duration="2308000" />
+      <workItem from="1662902465431" duration="3422000" />
+      <workItem from="1662918681760" duration="358000" />
+      <workItem from="1662921246600" duration="4687000" />
+      <workItem from="1662982304589" duration="923000" />
+      <workItem from="1663068281035" duration="2420000" />
+      <workItem from="1663073745041" duration="1354000" />
+      <workItem from="1663076867976" duration="13685000" />
+      <workItem from="1663094932955" duration="1931000" />
+      <workItem from="1663146583184" duration="618000" />
+      <workItem from="1663151822660" duration="628000" />
+      <workItem from="1663515202753" duration="708000" />
     </task>
     <servers />
   </component>
