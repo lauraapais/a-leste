@@ -139,7 +139,7 @@ main {
     display: block;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     body {
         width: 90vw;
     }
@@ -298,7 +298,7 @@ canvas {
     display: grid;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     #ementa {
         display: block;
     }
@@ -453,7 +453,7 @@ canvas {
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .header_menu {
         width: 90vw;
         margin-top: 5vw;
@@ -569,7 +569,7 @@ canvas {
     margin-top: 0.5vh;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .loja {
         display: block;
     }
