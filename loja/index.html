@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 
-    <title>A Leste—Loja</title>
+    <title>A Leste — Loja</title>
 </head>
 <body>
 
@@ -23,8 +23,14 @@
 <main>
 
     <div class="loja">
-        <div class="fotos_loja">
-            <img src="../data/imagens/img1.jpg" alt="Bolo Chaminé">
+        <div id="slider_container">
+            <div class="fotos_loja" id="slider">
+                <img src="../data/loja/slider1.jpg" alt="Bolo Chaminé" class="active">
+                <img src="../data/loja/slider2.jpg" alt="Bolo Chaminé">
+                <img src="../data/loja/slider3.jpg" alt="Bolo Chaminé" class="unactive">
+            </div>
+            <img src="../data/loja/seta_dir.svg" class="arrow right">
+            <img src="../data/loja/seta_esq.svg" class="arrow left">
         </div>
         <div class="info_loja">
             <span class="local">Coimbra</span>
@@ -32,21 +38,32 @@
                 <img src="../data/loja/map.svg" alt="Localização">
                 <p>Rua de Quebra Costas, 8, r/c, 3000-340 Coimbra</p>
             </div>
+            <!--
             <div class="info_sub">
                 <img src="../data/loja/phone.svg" alt="Telefone">
                 <p>239</p>
+            </div>-->
+            <div class="info_sub">
+                <img src="../data/loja/time.svg" alt="Mail">
+                <div>
+                <p>Seg., Qua., Qui. — 11h às 20h <br>
+                    Sex., Sábado — 11h às 22h <br>
+                    Domingo — 11h às 19h
+                </p>
+                <p class="encerramento">Encerramento Semanal: Terça-Feira</p>
+                </div>
             </div>
             <div class="info_sub">
                 <img src="../data/loja/mail.svg" alt="Mail">
                 <p>a.leste.coimbra@gmail.com</p>
             </div>
-            <div class="info_sub">
-                <img src="../data/loja/time.svg" alt="Mail">
-                <p>De...a...</p>
+
+
+            <div class="credits">
+                <p>Design por <a href="https://lauraapais.github.io/Website-Pessoal/" target="_blank">Laura Pais</a></p>
             </div>
         </div>
     </div>
-
 </main>
 
 
@@ -68,6 +85,7 @@
 </div>
 
 <script src="../js/menu.js" type="text/javascript"></script>
+<script src="../js/slider.js" type="text/javascript"></script>
 
 </body>
 </html>
