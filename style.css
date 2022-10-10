@@ -546,8 +546,8 @@ canvas {
 }
 
 .info_sub img {
-    margin-right: 0.5vw;
-    height: 2vw;
+    margin-right: 1vw;
+    width: 2vw;
 }
 
 .credits{
@@ -590,8 +590,8 @@ canvas {
     }
 
     .info_sub img {
-        height: 3.5vh;
-        margin-right: 1vh;
+        width: 5vw;
+        margin-right: 2vw;
     }
 
     .info_sub {
