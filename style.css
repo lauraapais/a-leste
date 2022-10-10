@@ -355,6 +355,7 @@ canvas {
     .tamanho_bebidas span{
         font-size: 2vh;
         margin-bottom: 5vh;
+        margin-right:5vw;
     }
 
     .bot_ementa img{
