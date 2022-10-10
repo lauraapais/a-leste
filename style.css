@@ -586,7 +586,7 @@ canvas {
     .info_loja {
         margin-top: 3vh;
         width: 100%;
-        height: 45vh;
+
     }
 
     .info_sub img {
@@ -602,6 +602,11 @@ canvas {
         font-size: 12pt;
     }
 
+    .credits{
+        position: initial;
+        text-align: right;
+        margin-top: 40px;
+    }
 
 
     #slider_container {
