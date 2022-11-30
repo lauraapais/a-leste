@@ -354,7 +354,7 @@ canvas {
 
     .tamanho_bebidas span{
         font-size: 2vh;
-        margin-bottom: 5vh;
+        margin-bottom: 2vh;
         margin-right:5vw;
     }
 
@@ -462,6 +462,7 @@ canvas {
 
     .pags_menu span {
         font-size: 10vw;
+        padding-bottom: 5vh;
     }
 
     .close_menu {
