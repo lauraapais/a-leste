@@ -443,6 +443,10 @@
     }
 
     @media only screen and (max-width: 900px) {
+
+        .main_ementa{
+            margin-top: 4vh;
+        }
         .centro {
             font-size: 2.5vw !important;
         }
@@ -452,7 +456,12 @@
         }
 
         .containerTitle h2 {
-            font-size: 5vw;
+            font-size: 5.5vw;
+            padding:1vw;
+        }
+
+        .containerTitle{
+            margin-bottom: 2.5vw;
         }
 
         .two-columns-grid {
@@ -503,6 +512,7 @@
 
         .ementaMain {
             display: block;
+            margin-bottom: 3vh;
         }
 
         .iconPeqTrad {
@@ -514,7 +524,7 @@
         }
 
         h2 {
-            font-size: 8vw;
+            font-size: 5vw;
         }
 
         h3 {
@@ -688,6 +698,9 @@
     }
 
     @media only screen and (max-width: 900px) {
+        .preçosTitulo{
+            font-size:3vw!important;
+        }
         .header_menu {
             width: 90vw;
             margin-top: 5vw;
