@@ -2,20 +2,21 @@
         margin: 0;
         padding: 0;
     }
-    
+
     html {
         display: flex;
         justify-content: center;
     }
-    
+
     @font-face {
         font-family: 'Shrimp';
         font-style: normal;
         font-weight: 400;
         src: url(font/SHRIMP.woff2) format('woff2');
     }
-    
+
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
     body {
         font-family: 'Roboto', sans-serif;
         background-color: #E8DFDA;
@@ -23,21 +24,21 @@
         width: 95vw;
         height: 100vh;
     }
-    
+
     body.scroll {
         overflow: hidden;
     }
-    
+
     .header_menu a {
         text-decoration: none;
         color: #D15C33;
     }
-    
+
     .menuVerde a {
         text-decoration: none;
         color: #3C5947;
     }
-    
+
     h1,
     h2,
     h3,
@@ -45,35 +46,35 @@
         font-family: 'Shrimp';
         text-transform: uppercase;
     }
-    
+
     header h3 {
         line-height: 1em;
     }
-    
+
     h2 {
         font-size: 1.8vw;
     }
-    
+
     h3 {
         font-size: 2vw;
         white-space: nowrap;
     }
-    
+
     p {
         font-size: 1vw;
     }
-    
+
     .menu {
         text-decoration: none;
         color: #D15C33;
         font-size: 1.8vw;
         cursor: pointer;
     }
-    
+
     .menu:hover {
         transform: scale(1.05);
     }
-    
+
     header {
         display: flex;
         justify-content: space-between;
@@ -82,45 +83,47 @@
         position: relative;
         height: 8vw;
     }
-    
+
     header>* {
         position: absolute;
         z-index: 2;
     }
-    
+
     header nav {
         right: 0;
         bottom: 0;
     }
-    
+
     main {
         position: relative;
         height: calc(100vh - 8vw - 2vw);
         /* total - tamanho do header - margem do header */
     }
+
     /* ScrollBar */
-    
-     ::-webkit-scrollbar {
+
+    ::-webkit-scrollbar {
         width: 1em;
     }
-    
-     ::-webkit-scrollbar-track {
+
+    ::-webkit-scrollbar-track {
         background: #D8CCC5;
     }
-    
-     ::-webkit-scrollbar-thumb {
+
+    ::-webkit-scrollbar-thumb {
         background: #C6BEBA;
     }
-    
-     ::-webkit-scrollbar-thumb:hover {
+
+    ::-webkit-scrollbar-thumb:hover {
         background: #9E938F;
     }
+
     /* HOME */
-    
+
     .logo {
         width: 15vw;
     }
-    
+
     .bolos_main {
         text-transform: uppercase;
         font-size: 1.8vw;
@@ -129,7 +132,7 @@
         top: 40%;
         transform: translate(0, -50%);
     }
-    
+
     .local_main {
         text-transform: uppercase;
         font-size: 1.8vw;
@@ -138,51 +141,67 @@
         bottom: 15%;
         transform: translate(0, -50%);
     }
-    
+
     .bolos_main span,
     .local_main span {
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
         display: block;
     }
-    
+
     @media only screen and (max-width: 900px) {
         body {
             width: 90vw;
         }
+
         header {
             height: 17vw;
             margin-top: 5vw;
         }
+
         .logo {
             width: 35vw;
         }
+
         .bolos_main,
         .local_main {
             font-size: 3.5vh;
         }
+
         .local_main {
             bottom: 45%;
         }
+
         .bolos_main {
             top: 30%;
         }
+
         .menu {
             font-size: 5vw;
         }
+
     }
+
     /* EMENTA */
-    
+
     .container {
         width: 95%;
         border: 2px solid #3C5947;
     }
-    
+
+    .extraNotes{
+        width:45%;
+        margin-bottom: 4vh;
+    }
+    .bot_ementa, .extraNotes{
+        color: #3d5947;
+    }
+
     .containerTitle {
         background-color: #3C5947;
         margin-bottom: 7vh;
     }
-    
+
     .containerTitle h2 {
         font-size: 1.8vw;
         padding: 0.5vw;
@@ -190,66 +209,66 @@
         text-align: center;
         color: #D7D7CD;
     }
-    
+
     .main_ementa {
         margin-top: 12vh;
         color: #3d5947;
     }
-    
+
     .ementaMain {
         display: flex;
         justify-content: space-between;
         margin-bottom: 10vh;
     }
-    
+
     .ementa {
         width: calc(100% -4vw);
         margin-bottom: 2vh;
         padding: 0 2vw 0 2vw;
     }
-    
+
     .centro {
         width: 100%;
         text-align: center;
-        font-size: 1.2vw!important;
+        font-size: 1.2vw !important;
         margin-bottom: 2vw;
     }
-    
+
     .centro p {
         font-style: italic;
     }
-    
+
     #ementa_bebidas {
         display: flex;
         flex-wrap: wrap;
     }
-    
+
     #ementa div.tipo {
         min-width: 50%;
         display: flex;
     }
-    
+
     #ementa_bebidas div.tipo {
         min-width: 50%;
         display: flex;
     }
-    
+
     .menu_subtipo {
         font-family: 'Shrimp';
         text-transform: uppercase;
         font-size: 1.4vw;
         margin-top: 1vh;
     }
-    
+
     .ementa_bolos {
         margin-bottom: 4vh;
     }
-    
+
     .tipo {
         margin-bottom: 5vh;
         display: flex;
     }
-    
+
     .tipo_bolo {
         display: flex;
         justify-content: space-between;
@@ -257,64 +276,64 @@
         align-items: baseline;
         justify-content: center
     }
-    
+
     .preço_bolos {
         display: flex;
         justify-content: flex-end;
     }
-    
+
     .tipo_bolo h3 {
         text-align: center;
     }
-    
+
     .tipo_content h2 {
         text-align: center;
     }
-    
+
     .subtipo_bolo {
         display: flex;
         align-items: baseline;
         white-space: nowrap;
         justify-content: space-between;
     }
-    
+
     .menu_sabor {
         display: block;
         font-size: 1.35vw;
         margin-bottom: 0.3vh;
     }
-    
+
     .ultimo_sabor {
         margin-bottom: 3vh;
     }
-    
+
     .bolos_icon {
         width: 3.2vw;
         margin-right: 1.5vw;
     }
-    
+
     .toppings {
         display: flex;
         align-items: baseline;
         white-space: nowrap;
         justify-content: space-between;
     }
-    
+
     hr {
         width: 100%;
         border: 0;
         border-bottom: 2px dotted #3C5947;
         margin: 0 0.5vw;
     }
-    
+
     .tipo_content {
         width: 100%;
     }
-    
+
     #ementa_bebidas .tipo_content {
         width: calc(70% + 4.7vw);
     }
-    
+
     .preços {
         font-family: 'Roboto', sans-serif;
         font-weight: 900;
@@ -322,7 +341,7 @@
         display: flex;
         align-items: flex-end;
     }
-    
+
     .preços_subtipo {
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
@@ -330,203 +349,234 @@
         min-width: 6vw;
         text-align: center;
     }
-    
+
     .preco_frente {
         display: flex;
         justify-content: space-between;
     }
-    
+
     .observacao {
         width: 60%;
         margin-top: 2vw;
     }
-    
+
     .p_descicao {
         margin-bottom: 0.5vh;
     }
-    
+
     .two-columns-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    
+
     .secondColumn .ementaMain {
         display: flex;
         justify-content: flex-end;
     }
-    
+
     .firstColumn .ementaMain {
         display: flex;
     }
-    
+
     .variável {
         min-width: 7vw;
         text-align: center;
         display: flex;
         align-items: center;
     }
-    
+
     .space {
         width: 100%;
         margin: 0 0.5vw;
     }
-    
+
     .imagePeqDiv {
         min-width: 4.2vw;
         text-align: center;
     }
+
     /*.tipoBebida{
     width: 13vw;
     display: flex;
     justify-content: space-between;
 }*/
-    
+
     .tipoBebida span {
         font-size: 1vw;
         width: 10%;
     }
-    
+
     canvas {
         position: absolute;
         bottom: 0;
         left: 0;
     }
-    
+
     .tamanho_bebidas {
         display: flex;
         font-family: 'Roboto', sans-serif;
         font-size: 1vw;
     }
-    
+
     .tamanho_bebidas span {
         margin-right: 1vw;
     }
-    
+
     .bot_ementa img {
         width: 3vw;
         margin-right: 1vw;
     }
-    
+
     .titleNote {
         display: block;
         margin-bottom: 1vh;
     }
-    
+
     .bot_ementa {
         display: flex;
         padding-bottom: 5vh;
     }
-    
+
     .bot_ementa div {
         display: grid;
         align-content: center;
     }
-    
+
     @media only screen and (max-width: 900px) {
         .centro {
-            font-size: 2.5vw!important;
+            font-size: 2.5vw !important;
         }
+
         .tipo_content {
-            width: 94%!important;
+            width: 94% !important;
         }
+
         .containerTitle h2 {
             font-size: 5vw;
         }
+
         .two-columns-grid {
             display: block;
         }
+
         .secondColumn .ementaMain {
             justify-content: center
         }
+
         .firstColumn .ementaMain {
             justify-content: center
         }
+
         #ementa {
             display: block;
         }
+
         #ementa_bebidas {
             display: block;
         }
+
         .ementa {
             width: 100%
         }
+
         .ementa_bolos {
             margin: 10vh 0 6.5vh 0;
         }
+
         .tipo {
             display: flex;
             margin-bottom: 3vh;
         }
+
         .bolos_icon {
             width: 5.5vw;
             margin-right: 3vw;
         }
+
         .notas {
             font-size: 2.5vw !important;
         }
+
         .tipo_content {
             width: 100%;
         }
+
         .ementaMain {
             display: block;
         }
-        .pequenovsTradicional {
-            width: 100% !important;
-        }
+
         .iconPeqTrad {
             width: 9vw !important;
         }
+
         #ementa_bebidas .tipo_content {
             width: 100%;
         }
+
         h2 {
             font-size: 8vw;
         }
+
         h3 {
             font-size: 4vw;
         }
+
         p {
             font-size: 2.5vw;
         }
+
         .menu_subtipo {
             font-size: 4vw;
         }
+
         .imagePeqDiv {
             min-width: 11vw;
         }
+
         .breaksubTitle {
             white-space: normal;
             min-width: 17ch;
         }
+
         .preços_subtipo {
             font-size: 3vw;
             min-width: 13vw;
         }
+
         .preços {
             font-size: 5vw;
         }
+
         .menu_sabor {
             font-size: 3.6vw;
         }
+
         .tamanho_bebidas span {
             font-size: 2vh;
             margin-bottom: 2vh;
             margin-right: 5vw;
         }
+
         .bot_ementa img {
             width: 6vh;
             height: 6vh;
             margin-right: 2vw;
         }
+
         .bot_ementa {
             margin-bottom: 5vh;
         }
+
         .bot_ementa span {
             font-size: 2vh;
         }
+        .extraNotes{
+            width:100%;
+        }
     }
+
     /* MENU */
-    
+
     #menu {
         position: fixed;
         top: -100%;
@@ -540,33 +590,33 @@
         text-transform: uppercase;
         color: #E8DFDA;
     }
-    
+
     #menu.display {
         top: 0;
     }
-    
+
     .pags_menu {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    
+
     .pags_menu span {
         display: block;
         font-size: 3.5vw;
         text-align: center;
     }
-    
+
     .pags_menu span:hover {
         transform: scale(1.03);
     }
-    
+
     .pags_menu span a {
         text-decoration: none;
         color: #E8DFDA;
     }
-    
+
     .header_menu {
         width: 95vw;
         margin: 0 auto;
@@ -575,7 +625,7 @@
         align-items: baseline;
         margin-top: 2vw;
     }
-    
+
     .language_menu {
         font-size: 1.5vw;
         width: 100%;
@@ -586,108 +636,118 @@
         transform: translate(-50%, -50%);
         cursor: pointer;
     }
-    
+
     .language_menu a {
         text-decoration: none;
         color: #E8DFDA;
     }
-    
+
     .close_menu {
         transform-origin: center;
         width: 2.3vw;
         cursor: pointer;
     }
-    
+
     .close_menu:hover {
         transform: scale(1.1);
     }
-    
+
     .selected_menu,
     .selected {
         text-decoration: underline;
     }
-    
+
     .iconPeqTrad {
         width: 4vw;
         height: auto;
     }
-    
-    .pequenovsTradicional {
-        position: absolute;
-        top: 8vh;
+
+
+    .tamanho_bolo {
         display: flex;
-        width: 10%;
-        justify-content: space-around;
+        justify-content: space-between;
+        width: 100%;
     }
-    
-    .tamanhoBoloDesc {
+
+    .tamanho_bolo div{
+        width: 33.33%;
+    }
+
+    .preçosTitulo{
+        font-size: 1.2vw!important;
+    }
+
+    .tamanhoBoloIcon {
+        width:30%!important;
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-evenly;
     }
-    
-    .tamanhoBolo {}
-    
+
     .notas {
         font-size: 0.9vw;
     }
-    
+
     @media only screen and (max-width: 900px) {
         .header_menu {
             width: 90vw;
             margin-top: 5vw;
         }
+
         .pags_menu span {
             font-size: 10vw;
             padding-bottom: 5vh;
         }
+
         .close_menu {
             width: 5vw;
         }
+
         .language_menu {
             font-size: 5vw;
         }
     }
+
     /* Loja */
-    
+
     .loja {
         display: flex;
         padding-top: 3vh;
     }
-    
+
     .fotos_loja {
         display: flex;
         width: 42vw;
         position: relative;
         overflow-x: clip;
     }
-    
+
     .fotos_loja img {
         width: 100%;
         position: absolute;
         left: 100%;
         transition: left 1s;
     }
-    
+
     .fotos_loja img.active {
         left: 0;
         z-index: 2;
     }
-    
+
     .fotos_loja img.unactive {
         left: -100%;
         z-index: 1;
     }
-    
+
     .fotos_loja img.anime {
         z-index: 2;
     }
-    
+
     #slider_container {
         margin: 2vh 5vh 0 0;
         position: relative;
         height: calc(3 * 42vw / 4);
     }
-    
+
     #slider_container .arrow {
         width: 2.5%;
         position: absolute;
@@ -696,22 +756,22 @@
         top: 50%;
         padding: 0 2%;
     }
-    
+
     #slider_container .arrow.right {
         right: 0;
     }
-    
+
     .local {
         font-size: 3.5vw;
         font-family: 'Shrimp';
         text-transform: uppercase;
     }
-    
+
     .info_loja {
         width: 100%;
         position: relative;
     }
-    
+
     .info_sub {
         display: flex;
         font-family: 'Roboto', sans-serif;
@@ -719,62 +779,70 @@
         font-size: 15pt;
         margin-top: 2vh;
     }
-    
+
     .info_sub img {
         margin-right: 1vw;
         width: 1.5vw;
     }
-    
+
     .credits {
         position: absolute;
         bottom: 0;
         right: 0;
     }
-    
+
     .credits p {
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 12pt;
     }
-    
+
     .credits a {
         color: #D15C33;
     }
-    
+
     .encerramento {
         font-size: 12pt;
         margin-top: 0.5vh;
     }
-    
+
     @media only screen and (max-width: 900px) {
         .loja {
             display: block;
         }
+
         .fotos_loja {
             width: 100%;
         }
+
         .local {
             font-size: 8vw;
         }
+
         .info_loja {
             margin-top: 3vh;
             width: 100%;
         }
+
         .info_sub img {
             width: 5vw;
             margin-right: 2vw;
         }
+
         .info_sub {
             font-size: 12pt;
         }
+
         .credits p {
             font-size: 12pt;
         }
+
         .credits {
             position: initial;
             text-align: right;
             margin-top: 40px;
         }
+
         #slider_container {
             height: calc(3 * 90vw / 4);
             margin: 2vh 0 0 0;
