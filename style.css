@@ -442,6 +442,11 @@
         align-content: center;
     }
 
+    .bebidas h2{
+font-size: 4vw;
+margin:4vh 0;
+    }
+
     @media only screen and (max-width: 900px) {
 
         .main_ementa{
@@ -457,11 +462,52 @@
 
         .containerTitle h2 {
             font-size: 5.5vw;
-            padding:1vw;
+            padding:3vw;
+        }
+
+        .observacao{
+            width:90%;
+            margin-top:3vh;
+        }
+
+        p{
+            font-size: 3.5vw!important;
+        }
+
+        .centro{font-size: 3.5vw!important;}
+
+        .tamanho_bebidas{
+            display:grid;
+        }
+
+        .preços_subtipo{
+            font-size: 3.6vw!important;
+        }
+
+        .subtipo_bolo{
+            width: 98%;
+
+        }
+
+        .bebidas h2{
+            font-size: 8vw;
+            text-align: center;
+        }
+
+        .tipo_bolo{
+            margin-bottom: 1vh;
+        }
+
+        .tamanho_bebidas span{
+            font-size: 3vw!important;
+        }
+
+        .iconPeqTrad{
+            display: none;
         }
 
         .containerTitle{
-            margin-bottom: 2.5vw;
+            margin-bottom: 3.5vw;
         }
 
         .two-columns-grid {
@@ -502,8 +548,12 @@
             margin-right: 3vw;
         }
 
+        .bebidas{
+
+        }
+
         .notas {
-            font-size: 2.5vw !important;
+            font-size: 3vw !important;
         }
 
         .tipo_content {
@@ -563,7 +613,7 @@
 
         .tamanho_bebidas span {
             font-size: 2vh;
-            margin-bottom: 2vh;
+            margin-bottom: 1vh;
             margin-right: 5vw;
         }
 
