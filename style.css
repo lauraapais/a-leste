@@ -15,15 +15,44 @@
         src: url(font/SHRIMP.woff2) format('woff2');
     }
 
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
 
+    
     body {
-        font-family: 'Roboto', sans-serif;
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
         background-color: #E8DFDA;
         color: #D15C33;
         width: 95vw;
         height: 100vh;
     }
+
+    .bodyEmenta{
+        background-color: #a7ad91;
+    }
+
+    .bodyEmenta p, .bodyEmenta h2, .bodyEmenta h3, .bodyEmenta .menu_sabor, .preços_subtipo, .notas, .menu_subtipo, .menuVerde a, .bot_ementa, .main_ementa{
+        color:#2b2b2b !important;
+    }
+
+    .textCenter{
+        text-align: center;
+    }
+
+    .container {
+        border: 2px solid #2b2b2b!important;
+    }
+
+    .containerTitle h2{
+        color:#2b2b2b;
+    }
+
+    .containerTitle h2{
+        border-bottom: 2px solid #2b2b2b !important;
+        color:#2b2b2b !important;
+    }
+
 
     body.scroll {
         overflow: hidden;
@@ -41,10 +70,18 @@
 
     h1,
     h2,
-    h3,
-    .menu {
-        font-family: 'Shrimp';
+    h3{
+        font-family: "Raleway", sans-serif;
         text-transform: uppercase;
+    }
+
+    .menu {
+        font-family: "Shrimp";
+        text-transform: uppercase;
+    }
+
+    h1, .containerTitle h2{
+        font-weight: 800!important;
     }
 
     header h3 {
@@ -61,7 +98,7 @@
     }
 
     p {
-        font-size: 1vw;
+        font-size: 1.2vw;
     }
 
     .menu {
@@ -198,13 +235,12 @@
     }
 
     .containerTitle {
-        background-color: #3C5947;
         margin-bottom: 7vh;
     }
 
     .containerTitle h2 {
         font-size: 1.8vw;
-        padding: 0.5vw;
+        padding: 0.5vw 0;
         width: 100%;
         text-align: center;
         color: #D7D7CD;
@@ -254,10 +290,9 @@
     }
 
     .menu_subtipo {
-        font-family: 'Shrimp';
-        text-transform: uppercase;
         font-size: 1.4vw;
         margin-top: 1vh;
+        font-weight: 500;
     }
 
     .ementa_bolos {
@@ -274,7 +309,6 @@
         justify-content: space-between;
         position: relative;
         align-items: baseline;
-        justify-content: center
     }
 
     .preço_bolos {
@@ -322,7 +356,7 @@
     hr {
         width: 100%;
         border: 0;
-        border-bottom: 2px dotted #3C5947;
+        border-bottom: 2px dotted #2b2b2b;
         margin: 0 0.5vw;
     }
 
@@ -343,11 +377,15 @@
     }
 
     .preços_subtipo {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Raleway', sans-serif;
         font-weight: 400;
         font-size: 1.4vw;
         min-width: 6vw;
         text-align: center;
+    }
+
+    .menu_sabor {
+        font-weight: 500;
     }
 
     .preco_frente {
@@ -646,7 +684,6 @@ margin:4vh 0;
         background-color: #D15C33;
         transition: top 1s;
         z-index: 2;
-        font-family: 'Shrimp';
         text-transform: uppercase;
         color: #E8DFDA;
     }
